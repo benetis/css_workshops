@@ -1,0 +1,11 @@
+.card-with-semi-border {
+    /* Won't work because we have white opaque as background for border --> */
+    border: 10px solid hsla(0, 0%, 100%, .5);
+    background: white;
+    /* Needs the clip */
+    background-clip: padding-box;
+}
+
+body {
+    background-color: gray;
+}
