@@ -1,3 +1,11 @@
+body {
+    background-color: gray;
+}
+
+.card {
+    margin-top: 50px;
+}
+
 .card-with-semi-border {
     /* Won't work because we have white opaque as background for border --> */
     border: 10px solid hsla(0, 0%, 100%, .5);
@@ -6,6 +14,12 @@
     background-clip: padding-box;
 }
 
-body {
-    background-color: gray;
+.card-with-shadow-spread {
+    background: coral;
+    box-shadow: 0 0 0 10px #655, 0 0 0 15px deeppink;
+}
+
+.card-with-outline {
+    background: tomato;
+    border: 10px solid #5473c4;
 }
